@@ -1,16 +1,84 @@
-<html>
-    <h1>
-        SNDP school test server
-    </h1>
-    <body>
-        <h1> hey i am trying</h1>
-        <p>
-            Mmmmmmmmmmm
-        </p>
-        <h2>
-            <p> what to write???
-                
-            </p>
-        </h2>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SNDP School</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Set the body and center content */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #333;
+      background-color: #f4f4f9;
+    }
+    
+    /* Container styling */
+    .container {
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    
+    /* Title styling */
+    h1 {
+      font-size: 3rem;
+      color: #333;
+      margin-bottom: 1.5rem;
+      animation: slideIn 1.2s ease-in-out;
+    }
+    
+    /* Button styling */
+    .button-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #5a67d8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #4c51bf;
+    }
+    
+    /* Animation keyframes */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes slideIn {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SNDP School</h1>
+    <div class="button-container">
+      <button onclick="window.location.href='#'">Visit School</button>
+      <button onclick="window.location.href='#'">Store</button>
+    </div>
+  </div>
+</body>
 </html>
